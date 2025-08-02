@@ -1,0 +1,50 @@
+# General
+*.log
+*.bak
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+env.bak/
+venv.bak/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor
+.idea/
+*.sublime-workspace
+*.swp
+
+# Web project files
+node_modules/
+dist/
+build/
+*.css.map
+*.js.map
+
+# Python specific
+*.egg-info/
+*.egg
+MANIFEST
+
+# Java specific
+*.class
+*.jar
+*.war
+/target/
+
+# Database
+*.db
+*.sqlite
+
+# Local config
+config.ini
+settings.local.py
+
+# Ignore OS-specific files
+*.swp
